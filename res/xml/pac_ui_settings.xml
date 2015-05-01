@@ -102,17 +102,6 @@
         android:icon="@drawable/ic_notify_open_normal"
         android:title="@string/notification_drawer_title" />
 
-    <!-- PAC Console -->
-    <PreferenceScreen
-        android:id="@+id/pac_console"
-        android:title="@string/pac_console_title"
-        android:icon="@drawable/ic_settings_pacstats">
-        <intent
-            android:action="android.intent.action.MAIN"
-            android:targetPackage="com.pac.console"
-            android:targetClass="com.pac.console.PacConsole" />
-    </PreferenceScreen>
-
     <!-- Pie -->
     <PreferenceScreen
         android:id="@+id/pie_settings"
