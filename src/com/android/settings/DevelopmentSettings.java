@@ -527,7 +527,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
         final ContentResolver cr = getActivity().getContentResolver();
         mLastEnabledState = Settings.Global.getInt(cr,
-                Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 0) != 0;
+                Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 1) != 0;
         mEnabledSwitch.setChecked(mLastEnabledState);
         setPrefsEnabledState(mLastEnabledState);
 
@@ -1397,7 +1397,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 } else {
                     resetDangerousOptions();
                     Settings.Global.putInt(getActivity().getContentResolver(),
-                            Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 0);
+                            Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 1);
                     mLastEnabledState = isChecked;
                     setPrefsEnabledState(mLastEnabledState);
 
