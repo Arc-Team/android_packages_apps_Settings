@@ -685,14 +685,6 @@
     <string name="pac_version">PAC version</string>
     <string name="pac_version_default">Unknown</string>
 
-    <!-- Partition Info -->
-    <string name="partition_info_category">Additional Partitions</string>
-    <string name="partition_info_title">Usage</string>
-    <string name="partition_info_system">/system</string>
-    <string name="partition_info_data">/data</string>
-    <string name="partition_info_cache">/cache</string>
-    <string name="partition_info_used_of">used out of</string>
-
     <!-- Performance Control -->
     <string name="performance_settings">Advanced Controls</string>
 

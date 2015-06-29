@@ -1857,16 +1857,6 @@
         <!-- Notification Drawer Style -->
         <activity android:name=".pac.NotificationDrawerStyle" />
 
-        <!-- Partition Info -->
-        <activity android:name=".pac.PartitionInfo"
-                android:label="@string/partition_info_title">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.VOICE_LAUNCH" />
-            </intent-filter>
-        </activity>
-
         <!-- Pie -->
         <activity android:name=".pac.pie.fragments.PieButtonFragment" />
         <activity android:name=".pac.pie.PieButtonStyleSettings" />
